@@ -30,11 +30,9 @@
 
 .assistant {
   text-align: left;
-  box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.28);
 
 }
 .text{
-  box-shadow: 0px 2px 9px 0px rgba(0,0,0,0.28);
   padding: 10px;
   border-radius: 15px;
 }
@@ -76,4 +74,15 @@
   color: white;
   border-radius: 6px;
   cursor: pointer;
+}
+
+@media screen and (max-height: 500px), screen and (max-width: 600px){
+  .chatSection{
+    width: 70%;
+    margin: 0px auto;
+    height: calc(100vh - 128px);
+    border: 1px solid #ded3d3;
+    padding: 10px;
+    border-radius: 15px;
+  }
 }
