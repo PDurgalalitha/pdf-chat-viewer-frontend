@@ -1,5 +1,4 @@
 import { useState, useRef, useEffect } from "react";
-import axios from "axios";
 import styles from "./index.module.scss";
 import SendIcon from "@mui/icons-material/Send";
 import Snackbar from "@mui/material/Snackbar";
@@ -125,3 +124,4 @@ const ChatWindow = ({ setMessages, messages }) => {
 };
 
 export default ChatWindow;
+
